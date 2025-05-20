@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    <link href="./styles.css", rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div>
+            <p class="heading">HOME</p>
+            <div class="score-box">
+                <p class="score">0</p>
+            </div>
+        </div>
+    
+        <div>
+            <p class="heading">GUEST</p>
+            <div class="score-box">
+                <p class="score">0</p>
+            </div>
+        </div> 
+    </div>
+    
+    <div class="lower-flex-container">
+        <div>
+            <p class="buttons"><span id="minutes">00</span> : <span id="seconds">00</span></p>
+        </div>
+        <div>
+            <p class="buttons", id="new-game-button" onclick="resetClock()">NEW GAME</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

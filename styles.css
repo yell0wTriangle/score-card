@@ -1,0 +1,95 @@
+body {
+    background-image: url("photo2pixel_download.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-size: 6rem;         /* 96px / 16 */
+    color: #CA8968;
+    opacity: 62%;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.score {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-size: 14.0625rem;   /* 225px / 16 */
+    color: #FCC8B2;
+    text-shadow: 0.9375rem 0.9375rem rgba(0, 0, 0, 0.25); /* 15px */
+    margin-top: 2.75rem;     /* 44px */
+}
+
+.buttons {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;         /* 48px */
+    margin: 0;
+    border-radius: 3.5625rem; /* 57px */
+    background-color: #BE6E46;
+    width: 18.5rem;          /* 296px */
+    height: 4rem;            /* 64px */
+    text-align: center;
+    line-height: 4rem;       /* 64px */
+    color: #FCC8B2;
+    text-shadow: 0.25rem 0.25rem rgba(0, 0, 0, 0.25);  /* 4px */
+    box-shadow: 0.5rem 0.5rem rgba(202, 137, 104, 0.62); /* 8px */
+}
+
+.flex-container {
+    display: flex;
+    min-width: 62.5rem;      /* 1000px */
+    max-width: 90rem;        /* 1440px */
+    justify-content: space-around;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1.5625rem; /* 25px */
+    width: 100%;
+}
+
+.score-box {
+    width: 25.25rem;         /* 404px */
+    height: 25.25rem;        /* 404px */
+    line-height: 25.25rem;   /* 404px */
+    background-color: #442220;
+    border-radius: 6.25rem;  /* 100px */
+    box-shadow: 1.5625rem 1.5625rem #2E0014; /* 25px */
+}
+
+.lower-flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 10.4375rem;      /* 167px */
+    gap: 20%;
+    align-items: center;
+    min-width: 62.5rem;      /* 1000px */
+    max-width: 90rem;        /* 1440px */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.6875rem;   /* 75px */
+    width: 100%;
+}
+
+#new-game-button{
+    transition: transform 0.2s ease, background-color 0.3s ease; 
+}
+#new-game-button:hover{
+    background-color: #fd7d46;
+    transform: scale(1.05);
+}
+
+#new-game-button:active{
+    transform: scale(0.95);
+}
+
